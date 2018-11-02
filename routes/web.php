@@ -13,10 +13,10 @@
 
 /*Route::get('/', function () {
     return view('welcome');
-});
+});*/
 
 Route::resource('/posts', 'PostsController');
 
-Route::post('/posts/search', 'PostsController@search');*/
+Route::post('/posts/search', 'PostsController@search');
 
 Route::view('/{path?}', 'app');
